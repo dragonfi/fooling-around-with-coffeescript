@@ -1,0 +1,6 @@
+math_utils = require "./math_utils"
+
+numbers = [1..100]
+
+console.log math_utils.sum numbers...
+console.log math_utils.avg numbers...
